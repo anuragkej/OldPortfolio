@@ -1,0 +1,22 @@
+{
+    "sourceFile": "script.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1716669334949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1716669966754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+function toggleMenu(){\n+    const menu = document.querySelector(\".menu-links\");\n+    const icon = document.querySelector(\".hamburger-icon\");\n+    menu.classList.toggle(\"open\");\n+    icon.classList.toggle(\"open\");\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1716669334949,
+            "name": "Commit-0",
+            "content": "function toggleMenu(){\n    const menu = document.querySelector(\".menu-links\");\n    const icon = document.querySelector(\".hamburger-icon\");\n    menu.classList.toggle(\"open\");\n    icon.classList.toggle(\"open\");\n}"
+        }
+    ]
+}
